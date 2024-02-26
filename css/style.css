@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url("../fonts/yekan-regular.eot") format('.eot'),
+        url('../fonts/yekan-regular.ttf') format("truetype"),
+        url('../fonts/yekan-regular.woff') format(".woff"),
+        url('../fonts/Yekan.eot') format(".eot");
+}
+
+body {
+    margin-top: 75px;
+}
+
+.navbar {
+    width: 100%;
+    background: rgba(239, 239, 241, 0.9);
+}
+
+* {
+    font-family: 'Yekan';
+}
+
+#bgShow {
+    position: relative;
+    min-height: 530px;
+    background: url(../img/bgShow.jpg);
+}
+
+.bgShow-main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(50, 60, 111, 0.68);
+}
+
+.card-body i {
+    font-size: 50px;
+}
+
+.d-flex .p-3 i {
+    font-size: 30px;
+}
+
+#contact form .input-group:nth-child(2) input::placeholder,
+#mail::placeholder {
+    text-align: right;
+}
